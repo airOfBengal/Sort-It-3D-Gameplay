@@ -653,9 +653,8 @@ MonoBehaviour:
   - {fileID: 1238367024}
   - {fileID: 2042839618}
   ballStop: {fileID: 1260218094}
-  ballMoveSpeed: 100
   topBallIndex: 0
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 2127517077}
 --- !u!136 &1291600484
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -832,6 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e83b468f41b254047804e941260e4b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballMoveSpeed: 100
 --- !u!4 &2127517078
 Transform:
   m_ObjectHideFlags: 0

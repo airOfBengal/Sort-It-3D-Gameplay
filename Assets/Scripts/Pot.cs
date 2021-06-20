@@ -6,7 +6,6 @@ public class Pot : MonoBehaviour
 {
     [SerializeField] GameObject[] balls = new GameObject[4];
     [SerializeField] GameObject ballStop;
-    [SerializeField] float ballMoveSpeed = 1f;
     [SerializeField] int topBallIndex;
 
     [SerializeField] GameManager gameManager;
@@ -45,13 +44,22 @@ public class Pot : MonoBehaviour
                 if (hit.transform.name == "Pot")
                 {
                     Debug.Log("clicked on pot");
-                    ball = Pop();
-                    if(ball != null)
+                    if(gameManager.sourcePot == null)
                     {
-                        ball.GetComponent<Rigidbody>().useGravity = false;
-                        shouldPickup = true;
+                        ball = Pop();
+                        if (ball != null)
+                        {
+                            ball.GetComponent<Rigidbody>().useGravity = false;
+                            shouldPickup = true;
+                        }
+
+                        gameManager.sourcePot = this.gameObject;
+                    }else if(gameManager.targetPot == null)
+                    {
+                        gameManager.targetPot = this.gameObject;
                     }
                     
+
                 }
                 else
                 {
@@ -62,7 +70,7 @@ public class Pot : MonoBehaviour
 
         if (shouldPickup)
         {
-            float speed = ballMoveSpeed * Time.deltaTime;
+            float speed = gameManager.ballMoveSpeed * Time.deltaTime;
             ball.transform.position = Vector3.MoveTowards(ball.transform.position, ballStop.transform.position, speed);
             if(Mathf.Abs(ball.transform.position.y - ballStop.transform.position.y) < Mathf.Epsilon)
             {
@@ -73,10 +81,10 @@ public class Pot : MonoBehaviour
 
     GameObject Pop()
     {
-        if(topBallIndex > 0 && gameManager.GetBall() == null)
+        if(topBallIndex > 0 && gameManager.ball == null)
         {
             GameObject ball = Instantiate(balls[topBallIndex]);
-            gameManager.SetBall(ball);
+            gameManager.ball = ball;
             Destroy(balls[topBallIndex]);
             topBallIndex--;
             return ball;
@@ -85,5 +93,13 @@ public class Pot : MonoBehaviour
         return null;
     }
 
+    public void Push(GameObject ball)
+    {
+        if(topBallIndex < balls.Length-1 && gameManager.ball != null)
+        {
+            topBallIndex++;
+            balls[topBallIndex] = ball;
+        }
+    }
    
 }
