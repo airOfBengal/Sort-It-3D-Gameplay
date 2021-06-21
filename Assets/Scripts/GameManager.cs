@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     [SerializeField] Pot[] pots;
+    [SerializeField] AudioClip sortCorrectSfx;
+    [SerializeField] AudioClip levelUpSfx;
+    AudioSource audioSource;
 
     private void Awake()
     {
@@ -30,7 +33,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -79,6 +82,18 @@ public class GameManager : MonoBehaviour
                 targetPot.GetComponent<Pot>().Push(ball);
 
                 bool isTargetPotSorted = targetPot.GetComponent<Pot>().IsSorted();
+                if (isTargetPotSorted)
+                {
+                    audioSource.PlayOneShot(sortCorrectSfx);
+                }
+
+                if (IsAllPotSorted())
+                {
+                    audioSource.Stop();
+                    AudioSource musicSource = GameObject.Find("MusicPlayer").GetComponent<AudioSource>();
+                    musicSource.Stop();
+                    audioSource.PlayOneShot(levelUpSfx);
+                }
                 Debug.Log(targetPot.gameObject.name + " is sorted: " + isTargetPotSorted);
                 Debug.Log("Are all pots sorted: " + IsAllPotSorted());
                 // TODO: check if pot sorted, on success animate the pot

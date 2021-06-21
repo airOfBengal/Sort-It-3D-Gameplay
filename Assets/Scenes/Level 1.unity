@@ -1119,14 +1119,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
-      propertyPath: ballMoveSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
-      propertyPath: pots.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
       propertyPath: pots.Array.data[0]
       value: 
       objectReference: {fileID: 1229801148}
