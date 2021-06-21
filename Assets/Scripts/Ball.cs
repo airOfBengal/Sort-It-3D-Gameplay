@@ -7,10 +7,13 @@ public class Ball : MonoBehaviour
 {
     [SerializeField] BallColor materialColor = BallColor.GREEN;
     MeshRenderer renderer;
+    AudioSource audioSource;
+    [SerializeField] AudioClip dropSfx;
 
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         renderer = GetComponent<MeshRenderer>();
         SetColor(materialColor);
     }
@@ -45,5 +48,10 @@ public class Ball : MonoBehaviour
         GREEN,
         BLUE,
         YELLOW
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        audioSource.PlayOneShot(dropSfx);
     }
 }

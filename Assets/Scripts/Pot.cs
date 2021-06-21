@@ -7,10 +7,12 @@ public class Pot : MonoBehaviour
     [SerializeField] GameObject[] balls = new GameObject[4];
     [SerializeField] GameObject ballStop;
     [SerializeField] int topBallIndex = 0;
+    [SerializeField] AudioClip ballPickupSfx;
 
     bool shouldPickup = false;
 
     GameObject ball = null;
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,8 @@ public class Pot : MonoBehaviour
             }
             
         }
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -46,6 +50,7 @@ public class Pot : MonoBehaviour
     {
         if(topBallIndex > 0 && GameManager.instance.ball == null)
         {
+            audioSource.PlayOneShot(ballPickupSfx);
             GameObject ball = Instantiate(balls[topBallIndex-1]);
             GameManager.instance.ball = ball;
             Destroy(balls[topBallIndex-1]);
