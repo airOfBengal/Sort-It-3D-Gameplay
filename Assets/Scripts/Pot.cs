@@ -13,6 +13,7 @@ public class Pot : MonoBehaviour
 
     GameObject ball = null;
     AudioSource audioSource;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class Pot : MonoBehaviour
         }
 
         audioSource = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -121,5 +123,14 @@ public class Pot : MonoBehaviour
         }
 
         return false;
+    }
+
+    public void AnimateOnSorted()
+    {
+        foreach(GameObject ball in balls)
+        {
+            ball.transform.parent = gameObject.transform;
+        }
+        animator.SetTrigger("Sorted");
     }
 }

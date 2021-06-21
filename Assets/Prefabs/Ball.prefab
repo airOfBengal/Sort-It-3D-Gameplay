@@ -112,7 +112,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   materialColor: 0
   dropSfx: {fileID: 8300000, guid: f02c9f21503faac45b7ebbb3dd6061a0, type: 3}
-  pickupSfx: {fileID: 8300000, guid: d3907d5a8ac8dec4b891f92bc6f9f498, type: 3}
 --- !u!54 &5523479522552212445
 Rigidbody:
   m_ObjectHideFlags: 0

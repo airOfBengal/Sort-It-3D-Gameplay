@@ -85,6 +85,7 @@ public class GameManager : MonoBehaviour
                 if (isTargetPotSorted)
                 {
                     audioSource.PlayOneShot(sortCorrectSfx);
+                    targetPot.GetComponent<Pot>().AnimateOnSorted();
                 }
 
                 if (IsAllPotSorted())
@@ -92,6 +93,7 @@ public class GameManager : MonoBehaviour
                     audioSource.Stop();
                     AudioSource musicSource = GameObject.Find("MusicPlayer").GetComponent<AudioSource>();
                     musicSource.Stop();
+                    audioSource.volume = 0.5f;
                     audioSource.PlayOneShot(levelUpSfx);
                 }
                 Debug.Log(targetPot.gameObject.name + " is sorted: " + isTargetPotSorted);
@@ -103,6 +105,11 @@ public class GameManager : MonoBehaviour
                 targetPot = null;
                 ball = null;
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            OnQuit();
         }
     }
 
@@ -122,5 +129,20 @@ public class GameManager : MonoBehaviour
         }
 
         return true;
+    }
+
+    public void OnQuit()
+    {
+
+#if (UNITY_EDITOR || DEVELOPMENT_BUILD)
+        Debug.Log(this.name + " : " + this.GetType() + " : " + System.Reflection.MethodBase.GetCurrentMethod().Name);
+#endif
+#if (UNITY_EDITOR)
+        UnityEditor.EditorApplication.isPlaying = false;
+#elif (UNITY_WEBGL)
+    Application.OpenURL("about:blank");
+#else
+    Application.Quit();
+#endif
     }
 }
