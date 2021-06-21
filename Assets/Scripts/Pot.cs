@@ -6,71 +6,34 @@ public class Pot : MonoBehaviour
 {
     [SerializeField] GameObject[] balls = new GameObject[4];
     [SerializeField] GameObject ballStop;
-    [SerializeField] int topBallIndex;
-
-    [SerializeField] GameManager gameManager;
+    [SerializeField] int topBallIndex = 0;
 
     bool shouldPickup = false;
+
+    GameObject ball = null;
 
     // Start is called before the first frame update
     void Start()
     {
-        for(int i = 0; i < balls.Length; i++)
+        for (int i = 0; i < balls.Length; i++)
         {
-            balls[i].transform.position = new Vector3(transform.position.x, 0.5f + i, transform.position.z);
-        }
-        if(balls.Length > 0)
-        {
-            topBallIndex = balls.Length - 1;
-        }
-        else
-        {
-            topBallIndex = 0;
+            if(balls[i] != null)
+            {
+                balls[topBallIndex] = balls[i];
+                balls[topBallIndex].transform.position = new Vector3(transform.position.x, 0.5f + topBallIndex, transform.position.z);
+                topBallIndex++;
+            }
+            
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        GameObject ball = null;
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit))
-            {
-                if (hit.transform.name == "Pot")
-                {
-                    Debug.Log("clicked on pot");
-                    if(gameManager.sourcePot == null)
-                    {
-                        ball = Pop();
-                        if (ball != null)
-                        {
-                            ball.GetComponent<Rigidbody>().useGravity = false;
-                            shouldPickup = true;
-                        }
-
-                        gameManager.sourcePot = this.gameObject;
-                    }else if(gameManager.targetPot == null)
-                    {
-                        gameManager.targetPot = this.gameObject;
-                    }
-                    
-
-                }
-                else
-                {
-                    Debug.Log("clicked elsewhere");
-                }
-            }
-        }
 
         if (shouldPickup)
         {
-            float speed = gameManager.ballMoveSpeed * Time.deltaTime;
+            float speed = GameManager.instance.ballMoveSpeed * Time.deltaTime;
             ball.transform.position = Vector3.MoveTowards(ball.transform.position, ballStop.transform.position, speed);
             if(Mathf.Abs(ball.transform.position.y - ballStop.transform.position.y) < Mathf.Epsilon)
             {
@@ -81,11 +44,11 @@ public class Pot : MonoBehaviour
 
     GameObject Pop()
     {
-        if(topBallIndex > 0 && gameManager.ball == null)
+        if(topBallIndex > 0 && GameManager.instance.ball == null)
         {
-            GameObject ball = Instantiate(balls[topBallIndex]);
-            gameManager.ball = ball;
-            Destroy(balls[topBallIndex]);
+            GameObject ball = Instantiate(balls[topBallIndex-1]);
+            GameManager.instance.ball = ball;
+            Destroy(balls[topBallIndex-1]);
             topBallIndex--;
             return ball;
         }
@@ -95,11 +58,41 @@ public class Pot : MonoBehaviour
 
     public void Push(GameObject ball)
     {
-        if(topBallIndex < balls.Length-1 && gameManager.ball != null)
+        if(topBallIndex < balls.Length && GameManager.instance.ball != null)
         {
             topBallIndex++;
-            balls[topBallIndex] = ball;
+            balls[topBallIndex-1] = ball;
         }
     }
-   
+
+    private void OnMouseDown()
+    {
+        if(GameManager.instance.sourcePot == null)
+                    {
+            ball = Pop();
+           
+            if (ball != null)
+            {
+                ball.GetComponent<Rigidbody>().useGravity = false;
+                shouldPickup = true;
+            }
+
+            GameManager.instance.sourcePot = this.gameObject;
+        }else if (GameManager.instance.targetPot == null)
+        {
+            GameManager.instance.targetPot = this.gameObject;
+        }
+
+    }
+
+    public bool IsSorted()
+    {
+        if(topBallIndex != 4)
+        {
+            return false;
+        }
+
+
+        return true;
+    }
 }
