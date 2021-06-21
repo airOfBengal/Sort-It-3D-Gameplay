@@ -107,4 +107,14 @@ public class Pot : MonoBehaviour
 
         return true;
     }
+
+    public bool IsFull()
+    {
+        if(topBallIndex == balls.Length)
+        {
+            return true;
+        }
+
+        return false;
+    }
 }

@@ -548,6 +548,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4125225552022532183, guid: 199d8b06eba51354ab3b33bb4fe503c0, type: 3}
+      propertyPath: balls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125225552022532183, guid: 199d8b06eba51354ab3b33bb4fe503c0, type: 3}
       propertyPath: balls.Array.data[0]
       value: 
       objectReference: {fileID: 766739328}
@@ -563,6 +567,10 @@ PrefabInstance:
       propertyPath: balls.Array.data[3]
       value: 
       objectReference: {fileID: 1276160196}
+    - target: {fileID: 4125225552022532183, guid: 199d8b06eba51354ab3b33bb4fe503c0, type: 3}
+      propertyPath: balls.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4125225552022532203, guid: 199d8b06eba51354ab3b33bb4fe503c0, type: 3}
       propertyPath: m_Name
       value: Pot 1

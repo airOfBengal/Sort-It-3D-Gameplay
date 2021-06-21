@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
+    [SerializeField] Pot[] pots;
+
     private void Awake()
     {
         if (GameManager.instance == null)
@@ -64,7 +66,12 @@ public class GameManager : MonoBehaviour
         if (sourcePot != null && targetPot != null && ball != null)
         {
             float speed = ballMoveSpeed * Time.deltaTime;
-            //Vector3 targetPos = new Vector3(targetPot.transform.position.x, targetPot.transform.GetChild(0).transform.position.y, targetPot.transform.position.z);
+
+            if (targetPot.GetComponent<Pot>().IsFull())
+            {
+                targetPot = sourcePot;
+            }
+            
             ball.transform.position = Vector3.MoveTowards(ball.transform.position, targetPot.transform.GetChild(0).transform.position, speed);
             if(Mathf.Abs(ball.transform.position.x - targetPot.transform.GetChild(0).transform.position.x) < Mathf.Epsilon)
             {
@@ -73,6 +80,9 @@ public class GameManager : MonoBehaviour
 
                 bool isTargetPotSorted = targetPot.GetComponent<Pot>().IsSorted();
                 Debug.Log(targetPot.gameObject.name + " is sorted: " + isTargetPotSorted);
+                Debug.Log("Are all pots sorted: " + IsAllPotSorted());
+                // TODO: check if pot sorted, on success animate the pot
+                // TODO: check if all pot sorted, on success animate the final pot and display particle effect, show UI to continue/exit
 
                 sourcePot = null;
                 targetPot = null;
@@ -81,4 +91,21 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    bool IsAllPotSorted()
+    {
+        if(pots.Length == 0)
+        {
+            return false;
+        }
+
+        foreach(Pot pot in pots)
+        {
+            if (!pot.IsSorted())
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
 }
