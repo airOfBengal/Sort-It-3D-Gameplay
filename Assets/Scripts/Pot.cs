@@ -87,11 +87,23 @@ public class Pot : MonoBehaviour
 
     public bool IsSorted()
     {
+        if(topBallIndex == 0)
+        {
+            return true;
+        }
+
         if(topBallIndex != 4)
         {
             return false;
         }
 
+        for(int i=2; i <= topBallIndex; i++)
+        {
+            if(balls[i-2].GetComponent<Ball>().GetColor() != balls[i - 1].GetComponent<Ball>().GetColor())
+            {
+                return false;
+            }
+        }
 
         return true;
     }

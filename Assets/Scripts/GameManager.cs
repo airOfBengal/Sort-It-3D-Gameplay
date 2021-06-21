@@ -71,6 +71,9 @@ public class GameManager : MonoBehaviour
                 ball.GetComponent<Rigidbody>().useGravity = true;
                 targetPot.GetComponent<Pot>().Push(ball);
 
+                bool isTargetPotSorted = targetPot.GetComponent<Pot>().IsSorted();
+                Debug.Log(targetPot.gameObject.name + " is sorted: " + isTargetPotSorted);
+
                 sourcePot = null;
                 targetPot = null;
                 ball = null;

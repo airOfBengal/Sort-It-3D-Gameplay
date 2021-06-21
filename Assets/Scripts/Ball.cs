@@ -34,13 +34,12 @@ public class Ball : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public BallColor GetColor()
     {
-        
+        return materialColor;
     }
 
-    enum BallColor
+    public enum BallColor
     {
         RED,
         GREEN,
