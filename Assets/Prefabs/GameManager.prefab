@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6658859515228254190}
   - component: {fileID: 6658859515228254191}
   - component: {fileID: 718809022}
+  - component: {fileID: 483642163874524129}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -51,6 +52,8 @@ MonoBehaviour:
   - {fileID: 0}
   sortCorrectSfx: {fileID: 8300000, guid: 72f3e2b372bd65940805a895d92611f3, type: 3}
   levelUpSfx: {fileID: 8300000, guid: 1e05f5e3eec381a45abb9672805d06bd, type: 3}
+  winVfx: {fileID: 6135563620657312975, guid: 1224db35c9ff6df499c157557bcf935d, type: 3}
+  completedPanel: {fileID: 0}
 --- !u!82 &718809022
 AudioSource:
   m_ObjectHideFlags: 0
@@ -147,3 +150,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &483642163874524129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6658859515228254184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4f71ec6bbc8f543b5544ebfd3987b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settingsPanel: {fileID: 0}

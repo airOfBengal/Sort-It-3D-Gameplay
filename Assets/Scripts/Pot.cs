@@ -135,7 +135,6 @@ public class Pot : MonoBehaviour
         foreach (GameObject ball in balls)
         {
             ball.GetComponent<Rigidbody>().useGravity = false;
-            ball.GetComponent<AudioSource>().mute = true;
             ball.transform.parent = gameObject.transform;
         }
         animator.SetTrigger("Sorted");
@@ -145,7 +144,6 @@ public class Pot : MonoBehaviour
         foreach (GameObject ball in balls)
         {
             ball.GetComponent<Rigidbody>().useGravity = true;
-            ball.GetComponent<AudioSource>().mute = false;
             ball.transform.parent = null;
         }
     }
