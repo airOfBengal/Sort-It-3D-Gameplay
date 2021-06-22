@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -84,26 +85,13 @@ public class GameManager : MonoBehaviour
                 bool isTargetPotSorted = targetPot.GetComponent<Pot>().IsSorted();
                 if (isTargetPotSorted)
                 {
-                    audioSource.PlayOneShot(sortCorrectSfx);
-                    targetPot.GetComponent<Pot>().AnimateOnSorted();
+                    StartCoroutine(WaitToBallFall());
                 }
-
-                if (IsAllPotSorted())
+                else
                 {
-                    audioSource.Stop();
-                    AudioSource musicSource = GameObject.Find("MusicPlayer").GetComponent<AudioSource>();
-                    musicSource.Stop();
-                    audioSource.volume = 0.5f;
-                    audioSource.PlayOneShot(levelUpSfx);
+                    NullifyResources();
                 }
-                Debug.Log(targetPot.gameObject.name + " is sorted: " + isTargetPotSorted);
-                Debug.Log("Are all pots sorted: " + IsAllPotSorted());
-                // TODO: check if pot sorted, on success animate the pot
-                // TODO: check if all pot sorted, on success animate the final pot and display particle effect, show UI to continue/exit
-
-                sourcePot = null;
-                targetPot = null;
-                ball = null;
+                
             }
         }
 
@@ -111,6 +99,13 @@ public class GameManager : MonoBehaviour
         {
             OnQuit();
         }
+    }
+
+    private void NullifyResources()
+    {
+        sourcePot = null;
+        targetPot = null;
+        ball = null;
     }
 
     bool IsAllPotSorted()
@@ -145,4 +140,30 @@ public class GameManager : MonoBehaviour
     Application.Quit();
 #endif
     }
+
+
+    IEnumerator WaitToBallFall()
+    {
+        // sourcePot is set to null to fix the animation when a pot is sorted, blocking the Update in GameManager
+        sourcePot = null;
+
+        yield return new WaitForSeconds(0.25f);
+        audioSource.PlayOneShot(sortCorrectSfx);
+        targetPot.GetComponent<Pot>().AnimateOnSorted();
+
+        if (IsAllPotSorted())
+        {
+            audioSource.Stop();
+            AudioSource musicSource = GameObject.Find("MusicPlayer").GetComponent<AudioSource>();
+            musicSource.Stop();
+            audioSource.PlayOneShot(levelUpSfx);
+        }
+        Debug.Log(targetPot.gameObject.name + " is sorted: True");
+        Debug.Log("Are all pots sorted: " + IsAllPotSorted());
+        // TODO: check if pot sorted, on success animate the pot
+        // TODO: check if all pot sorted, on success animate the final pot and display particle effect, show UI to continue/exit
+
+        NullifyResources();
+    }
+
 }

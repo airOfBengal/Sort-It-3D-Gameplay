@@ -127,10 +127,26 @@ public class Pot : MonoBehaviour
 
     public void AnimateOnSorted()
     {
-        foreach(GameObject ball in balls)
+        StartCoroutine(WaitToAnimate());
+    }
+
+    IEnumerator WaitToAnimate()
+    {
+        foreach (GameObject ball in balls)
         {
+            ball.GetComponent<Rigidbody>().useGravity = false;
+            ball.GetComponent<AudioSource>().mute = true;
             ball.transform.parent = gameObject.transform;
         }
         animator.SetTrigger("Sorted");
+
+        yield return new WaitForSeconds(0.83f);
+
+        foreach (GameObject ball in balls)
+        {
+            ball.GetComponent<Rigidbody>().useGravity = true;
+            ball.GetComponent<AudioSource>().mute = false;
+            ball.transform.parent = null;
+        }
     }
 }
