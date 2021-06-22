@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] AudioClip sortCorrectSfx;
     [SerializeField] AudioClip levelUpSfx;
     [SerializeField] ParticleSystem winVfx;
+    [SerializeField] GameObject completedPanel;
     AudioSource audioSource;
 
     private void Awake()
@@ -168,10 +169,18 @@ public class GameManager : MonoBehaviour
     {
         // sorted sfx plays for 1 second
         yield return new WaitForSeconds(1f);
+        StartCoroutine(ShowCompletedPanel());
+    }
+
+    IEnumerator ShowCompletedPanel()
+    {
         AudioSource musicSource = GameObject.Find("MusicPlayer").GetComponent<AudioSource>();
         musicSource.Stop();
         Instantiate<ParticleSystem>(winVfx).Play();
         audioSource.PlayOneShot(levelUpSfx);
-    }
 
+        yield return new WaitForSeconds(3f);
+
+        completedPanel.SetActive(true);
+    }
 }
