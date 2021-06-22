@@ -1154,6 +1154,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
+      propertyPath: winVfx
+      value: 
+      objectReference: {fileID: 6135563620657312975, guid: 1224db35c9ff6df499c157557bcf935d, type: 3}
+    - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
       propertyPath: pots.Array.data[0]
       value: 
       objectReference: {fileID: 3847667661867659418}

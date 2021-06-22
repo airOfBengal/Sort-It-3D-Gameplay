@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Pot[] pots;
     [SerializeField] AudioClip sortCorrectSfx;
     [SerializeField] AudioClip levelUpSfx;
+    [SerializeField] ParticleSystem winVfx;
     AudioSource audioSource;
 
     private void Awake()
@@ -153,10 +154,7 @@ public class GameManager : MonoBehaviour
 
         if (IsAllPotSorted())
         {
-            audioSource.Stop();
-            AudioSource musicSource = GameObject.Find("MusicPlayer").GetComponent<AudioSource>();
-            musicSource.Stop();
-            audioSource.PlayOneShot(levelUpSfx);
+            StartCoroutine(WaitToPlaySortedSfx());
         }
         Debug.Log(targetPot.gameObject.name + " is sorted: True");
         Debug.Log("Are all pots sorted: " + IsAllPotSorted());
@@ -164,6 +162,16 @@ public class GameManager : MonoBehaviour
         // TODO: check if all pot sorted, on success animate the final pot and display particle effect, show UI to continue/exit
 
         NullifyResources();
+    }
+
+    IEnumerator WaitToPlaySortedSfx()
+    {
+        // sorted sfx plays for 1 second
+        yield return new WaitForSeconds(1f);
+        AudioSource musicSource = GameObject.Find("MusicPlayer").GetComponent<AudioSource>();
+        musicSource.Stop();
+        Instantiate<ParticleSystem>(winVfx).Play();
+        audioSource.PlayOneShot(levelUpSfx);
     }
 
 }
