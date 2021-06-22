@@ -158,8 +158,8 @@ public class GameManager : MonoBehaviour
         }
         Debug.Log(targetPot.gameObject.name + " is sorted: True");
         Debug.Log("Are all pots sorted: " + IsAllPotSorted());
-        // TODO: check if pot sorted, on success animate the pot
-        // TODO: check if all pot sorted, on success animate the final pot and display particle effect, show UI to continue/exit
+        
+        // TODO: show UI panel to continue/exit
 
         NullifyResources();
     }
