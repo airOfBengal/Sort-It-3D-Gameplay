@@ -15,6 +15,7 @@ public class SceneLoader : MonoBehaviour
     {
         Debug.Log("Pressed Next Level");
         //GameObject.Find("Completed Panel").SetActive(false);
+        GameManager.potClickable = true;
         RestartLevel();
     }
 }

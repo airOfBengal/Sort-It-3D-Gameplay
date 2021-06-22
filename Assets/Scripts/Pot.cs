@@ -50,11 +50,11 @@ public class Pot : MonoBehaviour
 
     GameObject Pop()
     {
-        if(topBallIndex > 0 && GameManager.instance.ball == null)
+        if(topBallIndex > 0 && GameManager.ball == null)
         {
             audioSource.PlayOneShot(ballPickupSfx);
             GameObject ball = Instantiate(balls[topBallIndex-1]);
-            GameManager.instance.ball = ball;
+            GameManager.ball = ball;
             Destroy(balls[topBallIndex-1]);
             topBallIndex--;
             return ball;
@@ -65,7 +65,7 @@ public class Pot : MonoBehaviour
 
     public void Push(GameObject ball)
     {
-        if(topBallIndex < balls.Length && GameManager.instance.ball != null)
+        if(topBallIndex < balls.Length && GameManager.ball != null)
         {
             topBallIndex++;
             balls[topBallIndex-1] = ball;
@@ -74,22 +74,25 @@ public class Pot : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(GameManager.instance.sourcePot == null)
-                    {
-            ball = Pop();
-           
-            if (ball != null)
-            {
-                ball.GetComponent<Rigidbody>().useGravity = false;
-                shouldPickup = true;
-            }
-
-            GameManager.instance.sourcePot = this.gameObject;
-        }else if (GameManager.instance.targetPot == null)
+        if (GameManager.potClickable)
         {
-            GameManager.instance.targetPot = this.gameObject;
-        }
+            if (GameManager.sourcePot == null)
+            {
+                ball = Pop();
 
+                if (ball != null)
+                {
+                    ball.GetComponent<Rigidbody>().useGravity = false;
+                    shouldPickup = true;
+                }
+
+                GameManager.sourcePot = this.gameObject;
+            }
+            else if (GameManager.targetPot == null)
+            {
+                GameManager.targetPot = this.gameObject;
+            }
+        }
     }
 
     public bool IsSorted()
@@ -139,7 +142,7 @@ public class Pot : MonoBehaviour
         }
         animator.SetTrigger("Sorted");
 
-        yield return new WaitForSeconds(0.83f);
+        yield return new WaitForSeconds(0.2f);
 
         foreach (GameObject ball in balls)
         {

@@ -3,10 +3,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject sourcePot { get; set; } = null;
-    public GameObject targetPot { get; set; } = null;
+    public static GameObject sourcePot { get; set; } = null;
+    public static GameObject targetPot { get; set; } = null;
 
-    public GameObject ball { get; set; } = null;
+    public static GameObject ball { get; set; } = null;
+    public static bool potClickable { get; set; } = true;
 
     public float ballMoveSpeed = 1f;
 
@@ -147,7 +148,7 @@ public class GameManager : MonoBehaviour
     IEnumerator WaitToBallFall()
     {
         // sourcePot is set to null to fix the animation when a pot is sorted, blocking the Update in GameManager
-        sourcePot = null;
+        ball = null;
 
         yield return new WaitForSeconds(0.25f);
         audioSource.PlayOneShot(sortCorrectSfx);
@@ -155,6 +156,7 @@ public class GameManager : MonoBehaviour
 
         if (IsAllPotSorted())
         {
+            potClickable = false;
             StartCoroutine(WaitToPlaySortedSfx());
         }
         Debug.Log(targetPot.gameObject.name + " is sorted: True");
