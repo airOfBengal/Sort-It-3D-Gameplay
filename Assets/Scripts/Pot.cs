@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Pot : MonoBehaviour
@@ -76,7 +75,7 @@ public class Pot : MonoBehaviour
     {
         if (GameManager.potClickable)
         {
-            if (GameManager.sourcePot == null)
+            if (GameManager.sourcePot == null && !IsEmpty())
             {
                 ball = Pop();
 
@@ -88,7 +87,7 @@ public class Pot : MonoBehaviour
 
                 GameManager.sourcePot = this.gameObject;
             }
-            else if (GameManager.targetPot == null)
+            else if (GameManager.targetPot == null && GameManager.sourcePot != null)
             {
                 GameManager.targetPot = this.gameObject;
             }
@@ -128,6 +127,16 @@ public class Pot : MonoBehaviour
         return false;
     }
 
+    public bool IsEmpty()
+    {
+        if(topBallIndex == 0)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
     public void AnimateOnSorted()
     {
         StartCoroutine(WaitToAnimate());
@@ -137,16 +146,19 @@ public class Pot : MonoBehaviour
     {
         foreach (GameObject ball in balls)
         {
-            ball.GetComponent<Rigidbody>().useGravity = false;
+            //ball.GetComponent<Rigidbody>().useGravity = false;
+            ball.GetComponent<Rigidbody>().mass = 0;
             ball.transform.parent = gameObject.transform;
         }
+
         animator.SetTrigger("Sorted");
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1f);
 
         foreach (GameObject ball in balls)
         {
-            ball.GetComponent<Rigidbody>().useGravity = true;
+            //ball.GetComponent<Rigidbody>().useGravity = true;
+            //ball.GetComponent<Rigidbody>().mass = 1;
             ball.transform.parent = null;
         }
     }

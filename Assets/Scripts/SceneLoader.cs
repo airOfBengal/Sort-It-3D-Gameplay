@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,8 +11,6 @@ public class SceneLoader : MonoBehaviour
 
     public void NextLevel()
     {
-        Debug.Log("Pressed Next Level");
-        //GameObject.Find("Completed Panel").SetActive(false);
         GameManager.potClickable = true;
         RestartLevel();
     }
