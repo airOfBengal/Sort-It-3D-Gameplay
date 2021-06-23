@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameObject targetPot { get; set; } = null;
 
     public static GameObject ball { get; set; } = null;
-    [SerializeField] public bool potClickable { get; set; } = true;
+    public bool potClickable { get; set; } = true;
 
     public float ballMoveSpeed = 1f;
 
@@ -34,7 +34,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -50,36 +49,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (sourcePot == null)
-        {
-            Debug.Log("source pot is null ");
-        }
-        else
-        {
-            Debug.Log("source pot is not null " + sourcePot.transform.name);
-        }
-
-        if (targetPot == null)
-        {
-            Debug.Log("target pot is null ");
-        }
-        else
-        {
-            Debug.Log("target pot is not null " + targetPot.transform.name);
-        }
-
-        if(ball == null)
-        {
-            Debug.Log("ball is null");
-        }
-        else
-        {
-            Debug.Log("ball is not null");
-        }
-
         if (sourcePot != null && targetPot != null && ball != null)
         {
             float speed = ballMoveSpeed * Time.deltaTime;
@@ -169,10 +140,6 @@ public class GameManager : MonoBehaviour
             potClickable = false;
             StartCoroutine(WaitToPlaySortedSfx());
         }
-        Debug.Log(targetPot.gameObject.name + " is sorted: True");
-        Debug.Log("Are all pots sorted: " + IsAllPotSorted());
-        
-        // TODO: show UI panel to continue/exit
 
         NullifyResources();
     }

@@ -14,7 +14,6 @@ public class Pot : MonoBehaviour
     AudioSource audioSource;
     Animator animator;
 
-    // Start is called before the first frame update
     void Start()
     {
         for (int i = 0; i < balls.Length; i++)
@@ -22,8 +21,7 @@ public class Pot : MonoBehaviour
             if(balls[i] != null)
             {
                 balls[topBallIndex] = balls[i];
-                //float y = transform.position.y - transform.localScale.y + topBallIndex + balls[topBallIndex].transform.localScale.y;
-                balls[topBallIndex].transform.position = new Vector3(transform.position.x, topBallIndex + balls[topBallIndex].transform.localScale.y, transform.position.z);
+                balls[topBallIndex].transform.position = new Vector3(transform.position.x, 0.5f * topBallIndex + balls[topBallIndex].transform.localScale.y, transform.position.z);
                 topBallIndex++;
             }
             
@@ -33,7 +31,6 @@ public class Pot : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -147,7 +144,6 @@ public class Pot : MonoBehaviour
     {
         foreach (GameObject ball in balls)
         {
-            //ball.GetComponent<Rigidbody>().useGravity = false;
             ball.GetComponent<Rigidbody>().mass = 0;
             ball.transform.parent = gameObject.transform;
         }
@@ -158,8 +154,6 @@ public class Pot : MonoBehaviour
 
         foreach (GameObject ball in balls)
         {
-            //ball.GetComponent<Rigidbody>().useGravity = true;
-            //ball.GetComponent<Rigidbody>().mass = 1;
             ball.transform.parent = null;
         }
     }
