@@ -1,11 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Settings : MonoBehaviour
 {
     public static string AUDIO_KEY = "audio";
+    public static string COMPLETED_KEY = "completed";
     [SerializeField] GameObject settingsPanel;
     [SerializeField] Toggle soundToggle;
+    [SerializeField] TextMeshProUGUI completedTextLabel;
+    [SerializeField] TextMeshProUGUI levelTextLabel;
+    [SerializeField] TextMeshProUGUI finalTextLabel;
 
     private void Start()
     {
@@ -18,6 +23,11 @@ public class Settings : MonoBehaviour
         {
             soundToggle.isOn = true;
         }
+
+        string levelTitle = "Level " + SceneLoader.instance.level;
+        completedTextLabel.text = levelTitle;
+        levelTextLabel.text = levelTitle;
+        finalTextLabel.text = levelTitle;
     }
 
     public void ShowSettingsPanel()
@@ -39,5 +49,20 @@ public class Settings : MonoBehaviour
         AudioManager.instance.OnOffGameSounds(isMusic);
         PlayerPrefs.SetInt(AUDIO_KEY, isMusic ? 1 : 0);
         PlayerPrefs.Save();
+    }
+
+    public void LoadNextLevel()
+    {
+        SceneLoader.instance.NextLevel();
+    }
+
+    public void RestartLevel()
+    {
+        SceneLoader.instance.RestartLevel();
+    }
+
+    public void ResetLevel()
+    {
+        SceneLoader.instance.ResetLevel();
     }
 }

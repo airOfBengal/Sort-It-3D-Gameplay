@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] AudioClip levelUpSfx;
     [SerializeField] ParticleSystem winVfx;
     [SerializeField] GameObject completedPanel;
+    [SerializeField] GameObject finalPanel;
     AudioSource audioSource;
 
     private void Awake()
@@ -30,14 +32,22 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        //DontDestroyOnLoad(gameObject);
     }
 
     // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        Debug.Log("Level: " + SceneLoader.instance.level);
+
+        if (PlayerPrefs.HasKey(Settings.COMPLETED_KEY))
+        {
+            bool isCompleted = PlayerPrefs.GetInt(Settings.COMPLETED_KEY) == 1 ? true : false;
+            if(isCompleted && SceneLoader.instance.level == SceneManager.sceneCountInBuildSettings)
+            {
+                finalPanel.SetActive(true);
+            }
+        }
     }
 
     // Update is called once per frame
@@ -183,6 +193,13 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(3f);
 
-        completedPanel.SetActive(true);
+        if(SceneLoader.instance.level == SceneManager.sceneCountInBuildSettings)
+        {
+            finalPanel.SetActive(true);
+        }
+        else
+        {
+            completedPanel.SetActive(true);
+        }
     }
 }

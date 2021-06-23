@@ -22,7 +22,8 @@ public class Pot : MonoBehaviour
             if(balls[i] != null)
             {
                 balls[topBallIndex] = balls[i];
-                balls[topBallIndex].transform.position = new Vector3(transform.position.x, 0.5f + topBallIndex, transform.position.z);
+                //float y = transform.position.y - transform.localScale.y + topBallIndex + balls[topBallIndex].transform.localScale.y;
+                balls[topBallIndex].transform.position = new Vector3(transform.position.x, topBallIndex + balls[topBallIndex].transform.localScale.y, transform.position.z);
                 topBallIndex++;
             }
             
