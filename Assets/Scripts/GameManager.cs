@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameObject targetPot { get; set; } = null;
 
     public static GameObject ball { get; set; } = null;
-    public static bool potClickable { get; set; } = true;
+    [SerializeField] public bool potClickable { get; set; } = true;
 
     public float ballMoveSpeed = 1f;
 
@@ -195,6 +195,8 @@ public class GameManager : MonoBehaviour
 
         if(SceneLoader.instance.level == SceneManager.sceneCountInBuildSettings)
         {
+            PlayerPrefs.SetInt(Settings.COMPLETED_KEY, 1);
+            PlayerPrefs.Save();
             finalPanel.SetActive(true);
         }
         else

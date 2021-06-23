@@ -74,7 +74,7 @@ public class Pot : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (GameManager.potClickable)
+        if (GameManager.instance.potClickable)
         {
             if (GameManager.sourcePot == null && !IsEmpty())
             {

@@ -34,14 +34,14 @@ public class Settings : MonoBehaviour
     {
         settingsPanel.SetActive(true);
         Time.timeScale = 0;
-        GameManager.potClickable = false;
+        GameManager.instance.potClickable = false;
     }
 
     public void HideSettingsPanel()
     {
         settingsPanel.SetActive(false);
         Time.timeScale = 1;
-        GameManager.potClickable = true;
+        GameManager.instance.potClickable = true;
     }
 
     public void OnMusicOnOff(bool isMusic)
@@ -63,6 +63,8 @@ public class Settings : MonoBehaviour
 
     public void ResetLevel()
     {
+        PlayerPrefs.SetInt(COMPLETED_KEY, 0);
+        PlayerPrefs.Save();
         SceneLoader.instance.ResetLevel();
     }
 }
