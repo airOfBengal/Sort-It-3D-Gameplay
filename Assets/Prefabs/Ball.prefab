@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialColor: 0
-  dropSfx: {fileID: 8300000, guid: f02c9f21503faac45b7ebbb3dd6061a0, type: 3}
+  dropSfx: {fileID: 8300000, guid: 62e9baaf81a41e8488074e305e2279b6, type: 3}
 --- !u!54 &5523479522552212445
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
