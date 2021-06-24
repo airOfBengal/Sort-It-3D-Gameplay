@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] ParticleSystem winVfx;
     [SerializeField] GameObject completedPanel;
     [SerializeField] GameObject finalPanel;
+    [SerializeField] GameObject nextLevelButton;
     AudioSource audioSource;
 
     private void Awake()
@@ -37,7 +38,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        Debug.Log("Level: " + SceneLoader.instance.level);
 
         if (PlayerPrefs.HasKey(Settings.COMPLETED_KEY))
         {
@@ -45,6 +45,15 @@ public class GameManager : MonoBehaviour
             if(isCompleted && SceneLoader.instance.level == SceneManager.sceneCountInBuildSettings)
             {
                 finalPanel.SetActive(true);
+            }
+        }
+
+        if (PlayerPrefs.HasKey("level"))
+        {
+            int level = PlayerPrefs.GetInt("level");
+            if(level == SceneManager.sceneCountInBuildSettings)
+            {
+                nextLevelButton.SetActive(false);
             }
         }
     }

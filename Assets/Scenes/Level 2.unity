@@ -699,6 +699,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1135617689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 824409204367010911, guid: ff3805192773f1b4d8c20fc562b8a275, type: 3}
+  m_PrefabInstance: {fileID: 1135617681}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1276160196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8377362527098695051, guid: c081cbe55f28ab046b9c4f7c7e53758f, type: 3}
@@ -1402,6 +1407,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49ea94da63b652149ac0e71bcebfe090, type: 3}
+--- !u!114 &1957019234 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6214755606577361941, guid: 49ea94da63b652149ac0e71bcebfe090, type: 3}
+  m_PrefabInstance: {fileID: 1957019233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6078ef9d9ea0dd49aa56f6701e5126d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2016633810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2030,6 +2046,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1135617687}
     - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
+      propertyPath: nextLevelButton
+      value: 
+      objectReference: {fileID: 1135617689}
+    - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
+      propertyPath: pots.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
       propertyPath: pots.Array.data[0]
       value: 
       objectReference: {fileID: 3847667661867659418}
@@ -2041,6 +2065,10 @@ PrefabInstance:
       propertyPath: pots.Array.data[2]
       value: 
       objectReference: {fileID: 1440396585}
+    - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
+      propertyPath: pots.Array.data[3]
+      value: 
+      objectReference: {fileID: 1957019234}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c69072c406f502845994f72c4015f583, type: 3}
 --- !u!114 &6658859514339127580 stripped

@@ -54,6 +54,8 @@ MonoBehaviour:
   levelUpSfx: {fileID: 8300000, guid: 1e05f5e3eec381a45abb9672805d06bd, type: 3}
   winVfx: {fileID: 6135563620657312975, guid: 1224db35c9ff6df499c157557bcf935d, type: 3}
   completedPanel: {fileID: 0}
+  finalPanel: {fileID: 0}
+  nextLevelButton: {fileID: 0}
 --- !u!82 &718809022
 AudioSource:
   m_ObjectHideFlags: 0
@@ -166,3 +168,4 @@ MonoBehaviour:
   soundToggle: {fileID: 0}
   completedTextLabel: {fileID: 0}
   levelTextLabel: {fileID: 0}
+  finalTextLabel: {fileID: 0}

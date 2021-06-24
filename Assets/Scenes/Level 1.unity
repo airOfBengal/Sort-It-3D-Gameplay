@@ -1151,6 +1151,11 @@ PrefabInstance:
       objectReference: {fileID: 6658859514339127580}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff3805192773f1b4d8c20fc562b8a275, type: 3}
+--- !u!1 &824409204163230441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 824409204367010911, guid: ff3805192773f1b4d8c20fc562b8a275, type: 3}
+  m_PrefabInstance: {fileID: 824409204163230440}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1389208413515962634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1643,6 +1648,10 @@ PrefabInstance:
       propertyPath: completedPanel
       value: 
       objectReference: {fileID: 1353880562}
+    - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
+      propertyPath: nextLevelButton
+      value: 
+      objectReference: {fileID: 824409204163230441}
     - target: {fileID: 6658859515228254191, guid: c69072c406f502845994f72c4015f583, type: 3}
       propertyPath: pots.Array.data[0]
       value: 
