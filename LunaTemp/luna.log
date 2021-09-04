@@ -1,0 +1,812 @@
+[ Error ] $Failed to sign in into Playground:
+ RequestFailedException : 422 
+ Response: {"error":"authentication_failure"} 
+ Error: HTTP/1.1 422 Unprocessable Entity  
+
+Permissions were validated successfully.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Ball collider on Ball game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Converting Assets/Sprites/return.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'return' texture at 'Assets/Sprites/return.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/exitLeft.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitLeft' texture at 'Assets/Sprites/exitLeft.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/gear.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'gear' texture at 'Assets/Sprites/gear.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/next.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'next' texture at 'Assets/Sprites/next.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/cross.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'cross' texture at 'Assets/Sprites/cross.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/checkmark.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'checkmark' texture at 'Assets/Sprites/checkmark.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/menu_bg.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/Sprites/exitRight.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitRight' texture at 'Assets/Sprites/exitRight.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Non-repeat wrap mode used on 'bg1' texture at 'Assets/Sprites/bg1.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 1 collider on Yellow Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 2 collider on Yellow Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 3 collider on Yellow Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 4 collider on Yellow Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Converting Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg texture. Change its format from ETC_RGB4 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg texture. Change its format from ETC_RGB4 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg texture. Change its format from ETC_RGB4 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg texture. Change its format from ETC_RGB4 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg texture. Change its format from ETC_RGB4 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+Exporting assets from Unity..................
+[ Stage1 ] Assets exported from Unity and staged for further processing
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/Fonts/Geometry Soft Pro-Bold N.otf file to generate an atlas for Geometry Soft Pro-Bold N[15550] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf file to generate an atlas for Bangers[16196] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf file to generate an atlas for Oswald-Bold[16202] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf file to generate an atlas for Anton[16192] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF file to generate an atlas for Electronic Highway Sign[16198] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[15760] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf file to generate an atlas for Roboto-Bold[16204] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using C:/Windows/Fonts/arial.ttf file to generate an atlas for Arial[492] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Error: Command failed: C:/Users/ASUS/Downloads/1.13.0/tools/fontbm/win64/fontbm.exe --font-size 64 --spacing-vert 4 --spacing-horiz 4 --texture-width 1024 --texture-height 1024 --font-file "F:/UnityProjects/Sort It 3D Gameplay/Assets/TextMesh Pro/Examples ^& Extras/Fonts/Roboto-Bold.ttf" --color 0,0,0 --chars 32,167,49,50,51,52,53,54,55,56,57,48,45,61,113,119,101,114,116,121,117,105,111,112,91,93,97,115,100,102,103,104,106,107,108,59,39,92,96,122,120,99,118,98,110,109,44,46,47,177,33,64,35,36,37,94,38,42,40,41,95,43,81,87,69,82,84,89,85,73,79,80,123,125,65,83,68,70,71,72,74,75,76,58,34,124,126,90,88,67,86,66,78,77,60,62,63 --output "F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Roboto-Bold-16204/output"
+Couldn't load font file, error code: 1
+
+    at ChildProcess.exithandler (child_process.js:301:12)
+    at ChildProcess.emit (events.js:219:5)
+    at maybeClose (internal/child_process.js:1027:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:285:5)
+[ Error ] $Failed to combine glyphs to F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Roboto-Bold-16204/output_0.png
+[ Error ] $Please check what's wrong by running the below:
+[ Error ] $	C:/Users/ASUS/Downloads/1.13.0/tools/fontbm/win64/fontbm.exe --font-size 64 --spacing-vert 4 --spacing-horiz 4 --texture-width 1024 --texture-height 1024 --font-file "F:/UnityProjects/Sort It 3D Gameplay/Assets/TextMesh Pro/Examples ^& Extras/Fonts/Roboto-Bold.ttf" --color 0,0,0 --chars 32,167,49,50,51,52,53,54,55,56,57,48,45,61,113,119,101,114,116,121,117,105,111,112,91,93,97,115,100,102,103,104,106,107,108,59,39,92,96,122,120,99,118,98,110,109,44,46,47,177,33,64,35,36,37,94,38,42,40,41,95,43,81,87,69,82,84,89,85,73,79,80,123,125,65,83,68,70,71,72,74,75,76,58,34,124,126,90,88,67,86,66,78,77,60,62,63 --output "F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Roboto-Bold-16204/output"
+[ Error ] $Assets processing failed
+Error: ASSETS_PROCESS
+    at _0x27f072.action (C:\Users\ASUS\Downloads\1.13.0\pipeline\Jakefile.js:6:2218305)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Gathering diagnostics
+CameraController.cs:61 CS0117 'Input' does not contain a definition for 'simulateMouseWithTouches'
+
+Benchmark02.cs:55 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark01.cs:74 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark01.cs:79 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+TextMeshSpawner.cs:63 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+TextMeshProFloatingText.cs:73 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+SkewTextExample.cs:48 CS1061 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+SkewTextExample.cs:49 CS1061 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+WarpTextExample.cs:47 CS1061 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+WarpTextExample.cs:48 CS1061 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+CameraController.cs:248 CS1501 No overload for method 'TransformDirection' takes 3 arguments
+Benchmark03.cs:78 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+
+Diagnostics gathered successfully
+Authorized using stored user info.
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Ball collider on Ball game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Converting Assets/Sprites/return.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'return' texture at 'Assets/Sprites/return.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/exitLeft.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitLeft' texture at 'Assets/Sprites/exitLeft.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/gear.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'gear' texture at 'Assets/Sprites/gear.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/next.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'next' texture at 'Assets/Sprites/next.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/cross.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'cross' texture at 'Assets/Sprites/cross.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/checkmark.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'checkmark' texture at 'Assets/Sprites/checkmark.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/menu_bg.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/Sprites/exitRight.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitRight' texture at 'Assets/Sprites/exitRight.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Non-repeat wrap mode used on 'bg1' texture at 'Assets/Sprites/bg1.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 1 collider on Yellow Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 2 collider on Yellow Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 3 collider on Yellow Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 4 collider on Yellow Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+Exporting assets from Unity.......
+[ Stage1 ] Assets exported from Unity and staged for further processing
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/Fonts/Geometry Soft Pro-Bold N.otf file to generate an atlas for Geometry Soft Pro-Bold N[15550] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using C:/Windows/Fonts/arial.ttf file to generate an atlas for Arial[492] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Combined 97 glyphs into bitmap texture at F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Arial-492/output_0.png (59kb)
+Combined 97 glyphs into bitmap texture at F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Geometry Soft Pro-Bold N-15550/output_0.png (51kb)
+Resources:
+{}
+[ Stage2 ] Assets postprocessed and bundled successfully
+Error: MS_BUILD_VERSION
+    at _0x139c10.checkMsBuildVersion (C:\Users\ASUS\Downloads\1.13.0\pipeline\Jakefile.js:6:2235044)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async _0x139c10.compile (C:\Users\ASUS\Downloads\1.13.0\pipeline\Jakefile.js:6:2231517)
+    at async _0x27f072.action (C:\Users\ASUS\Downloads\1.13.0\pipeline\Jakefile.js:6:2243190)
+[ Error ] $Wrong MSBuild version
+Gathering diagnostics
+CameraController.cs:61 CS0117 'Input' does not contain a definition for 'simulateMouseWithTouches'
+TextMeshProFloatingText.cs:73 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark02.cs:55 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+TextMeshSpawner.cs:63 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark01.cs:74 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark01.cs:79 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+
+WarpTextExample.cs:47 CS1061 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+WarpTextExample.cs:48 CS1061 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+SkewTextExample.cs:48 CS1061 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+SkewTextExample.cs:49 CS1061 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+CameraController.cs:248 CS1501 No overload for method 'TransformDirection' takes 3 arguments
+Benchmark03.cs:78 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+
+Diagnostics gathered successfully
+Authorized using stored user info.
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Ball collider on Ball game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Converting Assets/Sprites/return.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'return' texture at 'Assets/Sprites/return.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/exitLeft.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitLeft' texture at 'Assets/Sprites/exitLeft.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/gear.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'gear' texture at 'Assets/Sprites/gear.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/next.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'next' texture at 'Assets/Sprites/next.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/cross.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'cross' texture at 'Assets/Sprites/cross.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/checkmark.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'checkmark' texture at 'Assets/Sprites/checkmark.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/menu_bg.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/Sprites/exitRight.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitRight' texture at 'Assets/Sprites/exitRight.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Non-repeat wrap mode used on 'bg1' texture at 'Assets/Sprites/bg1.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 1 collider on Yellow Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 2 collider on Yellow Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 3 collider on Yellow Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 4 collider on Yellow Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+Exporting assets from Unity.......
+[ Stage1 ] Assets exported from Unity and staged for further processing
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/Fonts/Geometry Soft Pro-Bold N.otf file to generate an atlas for Geometry Soft Pro-Bold N[15550] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using C:/Windows/Fonts/arial.ttf file to generate an atlas for Arial[492] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Combined 97 glyphs into bitmap texture at F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Geometry Soft Pro-Bold N-15550/output_0.png (51kb)
+Combined 97 glyphs into bitmap texture at F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Arial-492/output_0.png (59kb)
+Resources:
+{}
+[ Stage2 ] Assets postprocessed and bundled successfully
+Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+Build started 21/07/05 5:18:34 PM.
+
+Project "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1177,5): error MSB3644: The reference assemblies for .NETFramework,Version=v4.7 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Done Building Project "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)) -- FAILED.
+
+[ Error ] $
+[ Error ] $Build FAILED.
+[ Error ] $
+[ Error ] $
+[ Error ] $
+[ Error ] $"C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+[ Error ] $(GetReferenceAssemblyPaths target) -> 
+[ Error ] $
+[ Error ] $  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1177,5): error MSB3644: The reference assemblies for .NETFramework,Version=v4.7 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $
+[ Error ] $    0 Warning(s)
+[ Error ] $
+[ Error ] $    1 Error(s)
+[ Error ] $
+[ Error ] $
+[ Error ] $Time Elapsed 00:00:00.16
+[ Error ] $
+Error: ENGINE_BUILD
+    at _0x139c10.compile (C:\Users\ASUS\Downloads\1.13.0\pipeline\Jakefile.js:6:2232371)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async _0x27f072.action (C:\Users\ASUS\Downloads\1.13.0\pipeline\Jakefile.js:6:2243190)
+[ Error ] $Engine compilation failed
+Gathering diagnostics
+CameraController.cs:61 CS0117 'Input' does not contain a definition for 'simulateMouseWithTouches'
+TextMeshSpawner.cs:63 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+TextMeshProFloatingText.cs:73 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark02.cs:55 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark01.cs:74 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark01.cs:79 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+
+WarpTextExample.cs:47 CS1061 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+WarpTextExample.cs:48 CS1061 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+SkewTextExample.cs:48 CS1061 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+SkewTextExample.cs:49 CS1061 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+CameraController.cs:248 CS1501 No overload for method 'TransformDirection' takes 3 arguments
+Benchmark03.cs:78 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+
+Diagnostics gathered successfully
+Authorized using stored user info.
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Ball collider on Ball game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Converting Assets/Sprites/return.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'return' texture at 'Assets/Sprites/return.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/exitLeft.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitLeft' texture at 'Assets/Sprites/exitLeft.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/gear.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'gear' texture at 'Assets/Sprites/gear.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/next.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'next' texture at 'Assets/Sprites/next.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/cross.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'cross' texture at 'Assets/Sprites/cross.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/checkmark.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'checkmark' texture at 'Assets/Sprites/checkmark.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/menu_bg.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/Sprites/exitRight.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitRight' texture at 'Assets/Sprites/exitRight.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Non-repeat wrap mode used on 'bg1' texture at 'Assets/Sprites/bg1.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 1 collider on Yellow Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 2 collider on Yellow Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 3 collider on Yellow Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 4 collider on Yellow Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+Exporting assets from Unity........
+[ Stage1 ] Assets exported from Unity and staged for further processing
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/Fonts/Geometry Soft Pro-Bold N.otf file to generate an atlas for Geometry Soft Pro-Bold N[15550] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using C:/Windows/Fonts/arial.ttf file to generate an atlas for Arial[492] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Combined 97 glyphs into bitmap texture at F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Geometry Soft Pro-Bold N-15550/output_0.png (51kb)
+Combined 97 glyphs into bitmap texture at F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Arial-492/output_0.png (59kb)
+Resources:
+{}
+[ Stage2 ] Assets postprocessed and bundled successfully
+Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+Build started 21/07/05 5:47:30 PM.
+
+Project "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+
+CoreCompile:
+
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;UNITY_BUPC;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2017_1_OR_NEWER /highentropyva+ /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.11-luna\lib\net40\Bridge.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.235\lib\net40\DOTween.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.0\TextMeshPro.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /target:library /utf8output /langversion:7 "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\AudioManager.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Ball.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\SceneLoader.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01_UGUI.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark03.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark04.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\ChatController.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\DropdownSample.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\EnvMapAnimator.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\ObjectSpin.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\SimpleScript.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TeleType.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TextConsoleSimulator.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshSpawner.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_DigitValidator.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_ExampleScript_01.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_FrameRateCounter.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_PhoneNumberValidator.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventCheck.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextInfoDebugTool.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_A.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_UiFrameRateCounter.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMPro_InstructionOverlay.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexColorCycler.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexJitter.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeA.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeB.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs" Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs(74,90): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs(79,90): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs(47,25): error CS1061: 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs(48,25): error CS1061: 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs(46,17): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'MonoBehaviour' [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.cs(55,86): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs(61,23): error CS0117: 'Input' does not contain a definition for 'simulateMouseWithTouches' [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs(48,25): error CS1061: 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs(49,25): error CS1061: 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.cs(73,86): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark03.cs(78,95): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshSpawner.cs(63,80): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs(248,50): error CS1501: No overload for method 'TransformDirection' takes 3 arguments [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.cs(73,17): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'MonoBehaviour' [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexJitter.cs(53,17): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'MonoBehaviour' [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(19,32): warning CS0649: Field 'GameManager.levelUpSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs(17,31): warning CS0169: The field 'Benchmark01.m_textContainer' is never used [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(20,37): warning CS0649: Field 'GameManager.winVfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\AudioManager.cs(8,33): warning CS0649: Field 'AudioManager.sortItAudioMixer' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(17,28): warning CS0649: Field 'GameManager.pots' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(11,38): warning CS0649: Field 'Settings.completedTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Ball.cs(8,32): warning CS0649: Field 'Ball.dropSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(23,33): warning CS0649: Field 'GameManager.nextLevelButton' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(22,33): warning CS0649: Field 'GameManager.finalPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(18,32): warning CS0649: Field 'GameManager.sortCorrectSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs(7,33): warning CS0649: Field 'Pot.ballStop' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs(9,32): warning CS0649: Field 'Pot.ballPickupSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.cs
+proj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(21,33): warning CS0649: Field 'GameManager.completedPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(12,38): warning CS0649: Field 'Settings.levelTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(10,29): warning CS0649: Field 'Settings.soundToggle' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(9,33): warning CS0649: Field 'Settings.settingsPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(13,38): warning CS0649: Field 'Settings.finalTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Done Building Project "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)) -- FAILED.
+
+[ Error ] $
+[ Error ] $Build FAILED.
+[ Error ] $
+[ Error ] $
+[ Error ] $
+[ Error ] $"C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+[ Error ] $(CoreCompile target) -> 
+[ Error ] $
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs(46,17): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'MonoBehaviour' [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.cs(73,17): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'MonoBehaviour' [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexJitter.cs(53,17): warning CS0252: Possible unintended reference comparison; to get a value comparison, cast the left hand side to type 'MonoBehaviour' [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(19,32): warning CS0649: Field 'GameManager.levelUpSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs(17,31): warning CS0169: The field 'Benchmark01.m_textContainer' is never used [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(20,37): warning CS0649: Field 'GameManager.winVfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\AudioManager.cs(8,33): warning CS0649: Field 'AudioManager.sortItAudioMixer' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(17,28): warning CS0649: Field 'GameManager.pots' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(11,38): warning CS0649: Field 'Settings.completedTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Ball.cs(8,32): warning CS0649: Field 'Ball.dropSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(23,33): warning CS0649: Field 'GameManager.nextLevelButton' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(22,33): warning CS0649: Field 'GameManager.finalPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(18,32): warning CS0649: Field 'GameManager.sortCorrectSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs(7,33): warning CS0649: Field 'Pot.ballStop' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs(9,32): warning CS0649: Field 'Pot.ballPickupSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(21,33): warning CS0649: Field 'GameManager.completedPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(12,38): warning CS0649: Field 'Settings.levelTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(10,29): warning CS0649: Field 'Settings.soundToggle' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(9,33): warning CS0649: Field 'Settings.settingsPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(13,38): warning CS0649: Field 'Settings.finalTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $
+[ Error ] $
+[ Error ] $"C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+[ Error ] $(CoreCompile target) -> 
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs(74,90): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs(79,90): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs(47,25): error CS1061: 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs(48,25): error CS1061: 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.cs(55,86): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs(61,23): error CS0117: 'Input' does not contain a definition for 'simulateMouseWithTouches' [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs(48,25): error CS1061: 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs(49,25): error CS1061: 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.cs(73,86): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark03.cs(78,95): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshSpawner.cs(63,80): error CS1061: 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?) [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $  F:\UnityProjects\Sort It 3D Gameplay\Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs(248,50): error CS1501: No overload for method 'TransformDirection' takes 3 arguments [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ Error ] $
+[ Error ] $    20 Warning(s)
+[ Error ] $    12 Error(s)
+[ Error ] $
+[ Error ] $Time Elapsed 00:00:01.60
+[ Error ] $
+Error: ENGINE_BUILD
+    at _0x139c10.compile (C:\Users\ASUS\Downloads\1.13.0\pipeline\Jakefile.js:6:2232371)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async _0x27f072.action (C:\Users\ASUS\Downloads\1.13.0\pipeline\Jakefile.js:6:2243190)
+[ Error ] $Engine compilation failed
+Gathering diagnostics
+CameraController.cs:61 CS0117 'Input' does not contain a definition for 'simulateMouseWithTouches'
+
+TextMeshSpawner.cs:63 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+TextMeshProFloatingText.cs:73 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark02.cs:55 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark01.cs:74 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+Benchmark01.cs:79 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+WarpTextExample.cs:47 CS1061 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+WarpTextExample.cs:48 CS1061 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+SkewTextExample.cs:48 CS1061 'AnimationCurve' does not contain a definition for 'preWrapMode' and no accessible extension method 'preWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+SkewTextExample.cs:49 CS1061 'AnimationCurve' does not contain a definition for 'postWrapMode' and no accessible extension method 'postWrapMode' accepting a first argument of type 'AnimationCurve' could be found (are you missing a using directive or an assembly reference?)
+CameraController.cs:248 CS1501 No overload for method 'TransformDirection' takes 3 arguments
+Benchmark03.cs:78 CS1061 'Font' does not contain a definition for 'material' and no accessible extension method 'material' accepting a first argument of type 'Font' could be found (are you missing a using directive or an assembly reference?)
+
+Diagnostics gathered successfully
+Gathering diagnostics
+Diagnostics gathered successfully
+Authorized using stored user info.
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Ball collider on Ball game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Converting Assets/Sprites/return.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'return' texture at 'Assets/Sprites/return.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/exitLeft.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitLeft' texture at 'Assets/Sprites/exitLeft.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/gear.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'gear' texture at 'Assets/Sprites/gear.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/next.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'next' texture at 'Assets/Sprites/next.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/cross.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'cross' texture at 'Assets/Sprites/cross.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/checkmark.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'checkmark' texture at 'Assets/Sprites/checkmark.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Converting Assets/Sprites/menu_bg.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Converting Assets/Sprites/exitRight.png texture. Change its format from ETC2_RGBA8 to "RGBA 32 bit" to speed up export
+[ Warn ] $Non-repeat wrap mode used on 'exitRight' texture at 'Assets/Sprites/exitRight.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Non-repeat wrap mode used on 'bg1' texture at 'Assets/Sprites/bg1.png' with non power-of-two dimensions, this might not be rendered correctly.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 1 collider on Yellow Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 2 collider on Yellow Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 3 collider on Yellow Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Yellow Ball 4 collider on Yellow Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Desk collider on Desk game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 1 collider on Green Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 2 collider on Green Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 3 collider on Green Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Green Ball 4 collider on Green Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 1 collider on Blue Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 2 collider on Blue Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 3 collider on Blue Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Blue Ball 4 collider on Blue Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 1 collider on Red Ball 1 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 2 collider on Red Ball 2 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 3 collider on Red Ball 3 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Red Ball 4 collider on Red Ball 4 game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+[ Warn ] $Looks like Pot collider on Pot game object was scaled, this might affect performance.
+Exporting assets from Unity........
+[ Stage1 ] Assets exported from Unity and staged for further processing
+Using F:/UnityProjects/Sort It 3D Gameplay/Assets/Fonts/Geometry Soft Pro-Bold N.otf file to generate an atlas for Geometry Soft Pro-Bold N[15550] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using C:/Windows/Fonts/arial.ttf file to generate an atlas for Arial[492] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Combined 97 glyphs into bitmap texture at F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Geometry Soft Pro-Bold N-15550/output_0.png (51kb)
+Combined 97 glyphs into bitmap texture at F:/UnityProjects/Sort It 3D Gameplay/LunaTemp/stage1/tmp/fonts/Arial-492/output_0.png (59kb)
+Resources:
+{}
+[ Stage2 ] Assets postprocessed and bundled successfully
+Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+Build started 21/07/05 5:48:47 PM.
+
+Project "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+
+CoreClean:
+  Deleting file "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csprojAssemblyReference.cache".
+
+  Deleting file "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache".
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;UNITY_BUPC;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2017_1_OR_NEWER /highentropyva+ /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.11-luna\lib\net40\Bridge.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.235\lib\net40\DOTween.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.0\TextMeshPro.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /target:library /utf8output /langversion:7 "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\AudioManager.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Ball.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\SceneLoader.cs" "F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs" Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(12,38): warning CS0649: Field 'Settings.levelTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(13,38): warning CS0649: Field 'Settings.finalTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(18,32): warning CS0649: Field 'GameManager.sortCorrectSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(23,33): warning CS0649: Field 'GameManager.nextLevelButton' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs(7,33): warning CS0649: Field 'Pot.ballStop' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(22,33): warning CS0649: Field 'GameManager.finalPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(19,32): warning CS0649: Field 'GameManager.levelUpSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(20,37): warning CS0649: Field 'GameManager.winVfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(21,33): warning CS0649: Field 'GameManager.completedPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(10,29): warning CS0649: Field 'Settings.soundToggle' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(17,28): warning CS0649: Field 'GameManager.pots' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(9,33): warning CS0649: Field 'Settings.settingsPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs(9,32): warning CS0649: Field 'Pot.ballPickupSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\AudioManager.cs(8,33): warning CS0649: Field 'AudioManager.sortItAudioMixer' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(11,38): warning CS0649: Field 'Settings.completedTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Ball.cs(8,32): warning CS0649: Field 'Ball.dropSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.235\lib\net40\DOTween.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.11-luna\lib\net40\Bridge.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.0\TextMeshPro.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.11-luna\lib\net40\Bridge.xml" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Creating "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CopyComplete" because "AlwaysCreate" was specified.
+
+CopyFilesToOutputDirectory:
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Scripts -> C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
+
+  Copying file from "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+BridgeNetCompilerTask:
+  Bridge started
+
+      To enable detailed logging, configure "logging" in bridge.json.
+
+      https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
+
+  Bridge done
+
+Done Building Project "C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)).
+
+
+Build succeeded.
+
+
+
+"C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+(CoreCompile target) -> 
+
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(12,38): warning CS0649: Field 'Settings.levelTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(13,38): warning CS0649: Field 'Settings.finalTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(18,32): warning CS0649: Field 'GameManager.sortCorrectSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(23,33): warning CS0649: Field 'GameManager.nextLevelButton' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs(7,33): warning CS0649: Field 'Pot.ballStop' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(22,33): warning CS0649: Field 'GameManager.finalPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(19,32): warning CS0649: Field 'GameManager.levelUpSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Sc
+ripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(20,37): warning CS0649: Field 'GameManager.winVfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(21,33): warning CS0649: Field 'GameManager.completedPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(10,29): warning CS0649: Field 'Settings.soundToggle' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\GameManager.cs(17,28): warning CS0649: Field 'GameManager.pots' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(9,33): warning CS0649: Field 'Settings.settingsPanel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Pot.cs(9,32): warning CS0649: Field 'Pot.ballPickupSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\AudioManager.cs(8,33): warning CS0649: Field 'AudioManager.sortItAudioMixer' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Settings.cs(11,38): warning CS0649: Field 'Settings.completedTextLabel' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\Sort It 3D Gameplay\Assets\Scripts\Ball.cs(8,32): warning CS0649: Field 'Ball.dropSfx' is never assigned to, and will always have its default value null [C:\Users\ASUS\Downloads\1.13.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+
+    16 Warning(s)
+
+    0 Error(s)
+
+
+Time Elapsed 00:00:07.48
+
+Source code compiled successfully!
+[ Stage3 ] Code compiled and bundled successfully.
+[ Stage4 ] Target platform: develop
+[ Stage4 ] Package bundled successfully
